@@ -1,7 +1,24 @@
-*.log
-*.tmp
-*.bak
-*.DS_Store
-*.png.sql
-*.svg.sql
+# Ignore everything by default
+*
 
+# Allow APEX export structure
+!f100.sql
+!f100/**
+!.gitignore
+
+# macOS system files
+.DS_Store
+
+# Common unwanted folders
+node_modules/
+__pycache__/
+.idea/
+.vscode/
+.env
+*.log
+*.zip
+
+# System-level folders (from earlier problem)
+../.*
+../../.*
+../../../.*
