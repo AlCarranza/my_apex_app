@@ -1,0 +1,7 @@
+*.log
+*.tmp
+*.bak
+*.DS_Store
+*.png.sql
+*.svg.sql
+
